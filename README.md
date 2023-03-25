@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/ycwpsmj25x6p62ts?svg=true)](https://ci.appveyor.com/project/Alexander2327/animationcss)

@@ -1,0 +1,38 @@
+.collapse-container {
+    margin: auto;
+    width: 500px;
+    min-height: 60px;
+    padding: 20px;
+    border: solid 2px rgb(73, 73, 223);
+    border-radius: 5px;
+}
+
+.collapse-btn {
+    width: 100px;
+    height: 40px;
+    color: white;
+    font-size: 18px;
+    background-color: rgb(73, 73, 223);
+    border-radius: 5px;
+}
+
+.collapse-btn:hover {
+    cursor: pointer;
+    background-color: rgb(61, 61, 209);
+}
+
+.collapse-content {
+    display: flex;
+    position: relative;
+    overflow-y: hidden;
+  
+    transition: max-height 0.6s ease-in-out;
+  }
+  
+  .active { transition: max-height 0.6s ease-in-out; }
+  
+  .collapse-text {
+    padding: 20px;
+    border: 1px solid rgb(73, 73, 223);
+    border-radius: 5px;
+  }
